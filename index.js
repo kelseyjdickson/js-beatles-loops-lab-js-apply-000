@@ -2,7 +2,7 @@
 function theBeatlesPlay(musicians,instruments){
   let newString = [];
   for(let i = 0; i < musicians.length; i++){
-    newString.push(musicians[i] + ' plays ' + instruments[i]);
+    newString.push(`${musicians[i]} plays ${instruments[i]}`);
     }
 return newString;
 }
@@ -27,11 +27,8 @@ function iLoveTheBeatles(num){
       iLuvBeatlesArr.push('I love the Beatles!');
       num++
   }
-  while (num < 15){
+      while (num < 15){
 
     }
-
-    return iLuvBeatlesArr;
-
-
+      return iLuvBeatlesArr;
 }
